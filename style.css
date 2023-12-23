@@ -1,0 +1,365 @@
+body{
+	margin: 0;
+}
+.main{
+/*	border: 1px solid;*/
+	widows: 100%;
+	height: 550px;
+	background: url(main_photo.jpeg);
+	background-size: 100% 100%;
+}
+.sos{
+/*	border: 1px solid;*/
+	width: 100%;
+	height: 71px;
+	display: flex;
+}
+.manu1{
+/*	border: 1px solid;*/
+	width: 50%;
+	height: 70px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.manu2{
+/*	border: 1px solid;*/
+	width: 50%;
+	height: 70px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 30px;
+}
+		
+
+	.manu2 ul {
+/*		border: 1px solid;*/
+		padding: 0;
+		list-style-type: none;
+	}
+	.op_menu{
+		border: 1px solid;
+		width: 30%;
+		height: 100%;
+		position: fixed;
+		right: -30%;
+		top:0;
+		background: rgba(0,0,0,0.5);
+		display: flex;
+		flex-direction: column;
+		padding: 50px 0!important;
+		pointer-events: none;
+	}
+	.op_menu li{
+		color: white;
+		text-align: center;
+		margin: 20px 0;
+	}
+
+	.manu2 ul li:hover .op_menu{
+		right: 0;
+		transition: 1s;
+		pointer-events: all;
+	}
+
+.manu1 h2{
+	color: rgb(93,198,182);
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 30px;
+}
+.manu1 h2:hover{
+	transition: 0.5s;
+	transform: scale(1.2);
+}
+.manu2 i:hover{
+	transition: 0.5s;
+	transform: scale(1.2);
+}
+.main_text{
+/*	border: 1px solid;*/
+	width: 100%;
+	height: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	font-family: 'Nunito Sans', sans-serif;
+}
+.main_text h1{
+	color: rgb(93, 198, 182, 1.0);
+	font-size: 43px;
+}
+.main_2{
+/*	border:1px solid;*/
+	width: 	100%;
+	height: 400px;
+	display: flex;
+	justify-content: space-evenly;
+}
+.box{
+/*	border: 1px solid;*/
+	width: 350px;
+	height: 300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.box i{
+	color: rgb(93, 198, 182, 1.0);
+	font-size: 30px;
+}
+.box p{
+	font-family: 'Edu TAS Beginner', cursive;
+}
+.box h4{
+	font-family: sans-serif;
+}
+.box i:hover{
+	transition: 1s;
+	transform: rotate(360deg);
+}
+.main_3{
+/*	border: 1	px solid;*/
+	width: 100%;
+	height: 750px;
+	box-sizing: border-box;
+}
+.erkrordakan{
+/*	border: 1px solid;*/
+	width: 100%;
+	height: 55px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-sizing: border-box;
+}
+.for_tups1{
+/*	border: 1px solid;*/
+	width: 100%;
+	height: 345px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.tup1{
+/*	border: 1px solid;*/
+	width: 350px;
+	height: 350px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	font-family: 'Playpen Sans', cursive;
+	margin: 80px;
+}
+.tup1 i{
+	font-size: 30px;
+	color: rgb(93, 198, 182, 1.0);
+}
+.tup1 i:hover{
+	transition: 1s;
+	transform: rotate(45deg);
+}
+.for_tups2{
+/*	border: 1px solid;*/
+	width: 100%	;
+	height: 345px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.tup2{
+/*	border: 1px solid;*/
+	width: 350px;
+	height: 350px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	font-family: 'Playpen Sans', cursive;
+	margin: 80px;
+}
+.tup2 i{
+	font-size: 30px;
+	color: rgb(98, 198, 182, 1.0);
+}
+.tup2 i:hover{
+	transition: 1s;
+	transform: rotate(45deg);
+}
+.main_4{
+/*	border: 1px solid;*/
+	width: 100%;
+	height: 600px;
+	box-sizing: border-box;
+	background: rgb(240,242,245);
+}
+.div_for_p{
+/*	border: 1px solid;*/
+	width: 100%;
+	height: 50px;
+	box-sizing: border-box ;
+	display: flex;
+	justify-content: center;
+	margin: 10px 0px;
+	font-family: sans-serif;
+}
+.div_for_ark{
+/*	border: 1px solid;*/
+	width: 100%;
+	height: 540px;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	font-family: 'Edu TAS Beginner', cursive;
+}
+.ark1{
+/*	border: 1px solid;*/
+	width: 400px;
+	height: 400px;
+	background: url(book.jpeg);
+	background-size: 100% 100%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+}
+.white{
+/*	border: 1px solid;*/
+	width: 400px;
+	height: 120px;
+	background: floralwhite;
+	display: flex;
+	flex-direction: column;
+	padding: 0px 10px;
+}
+.ark2{
+/*	border: 1px solid;*/
+	width: 400px;
+	height: 400px;
+	background: url(usa.jpeg);
+	background-size: 100% 100%;
+	display: flex;
+	justify-content:flex-end;
+	align-items: flex-end;
+}
+.ark3{
+/*	border: 1px solid;*/
+	width: 400px;
+	height: 400px;
+	background: url(mmm.jpeg);
+	background-size: 100% 100%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+}
+.main_5{
+/*	border: 1px solid;*/
+	width: 100%;
+	height: 500px;
+	box-sizing: border-box;
+	position: relative;
+}
+.naxaverjin{
+/*	border: 1px solid;*/
+	width: 100%;
+	height: 50px;	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: sans-serif;
+}
+
+.arjev{
+/*	border: 1px solid;*/
+	width: 300px;
+	height: 250px;
+	margin: 100px;
+	background: url(nat.jpeg);
+	background-size: 100% 100%;
+	position: absolute;
+	z-index: 1;
+}
+.etev{
+/*	border: 1px solid;*/
+	width: 325px;
+	height: 200px;
+	background: rgb(98, 198, 182, 1.0);
+	margin: 100px;
+	position: absolute;
+	z-index: 0;
+}
+.tetr{
+/*	border: 1px solid;*/
+	width: 100%;
+	height: 400px;
+	box-sizing: border-box;
+	display: flex;
+	position: absolute;
+	z-index: 0;
+	align-items: flex-end;
+	justify-content: flex-end;
+	padding: 0 200px 0 0;
+
+}
+.sos2{
+/*	border: 1px solid;*/
+	width: 700px;
+	height: 350px;
+}
+.sos2 p{
+	font-family: sans-serif;
+}
+.line{
+	border: 1px solid rgb(98, 198, 182, 1.0);
+	width: 200px;
+}
+small{
+	font-size: 19px;
+	font-family: 'PT Sans', sans-serif;
+}
+.main_end{
+/*	border: 1px solid;*/
+	width: 100%;
+	height: 400px;
+	box-sizing: border-box;
+	background: rgb(240,242,245);
+}
+.mail{
+/*	border: 1px solid;*/
+	width: 100%;
+	height: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	font-family: 'Edu TAS Beginner', cursive;
+}
+.mail h2{
+	color: rgb(98,198,182);
+	font-size: 30px;
+}
+.mail h2:hover{
+	transition: 1s;
+	transform: scale(1.3);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
